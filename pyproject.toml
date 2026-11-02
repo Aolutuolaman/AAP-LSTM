@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aap-lstm-inference"
+version = "0.1.0"
+description = "Checkpoint-compatible inference tools for AAP-LSTM peptide candidates"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = {text = "MIT"}
+dependencies = ["numpy==1.26.4", "tensorflow==2.16.2", "keras==3.3.3", "h5py==3.11.0"]
+
+[project.scripts]
+aap-generate = "aap_lstm.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["aap_lstm*"]
+
+[tool.setuptools.package-data]
+aap_lstm = ["checkpoints.json"]

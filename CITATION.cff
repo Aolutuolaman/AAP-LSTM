@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the AAP-LSTM manuscript when its final bibliographic record is available, and acknowledge the upstream model described in README.md."
+title: "AAP-LSTM inference"
+type: software
+version: 0.1.0
+date-released: 2026-11-02
+license: MIT
+authors:
+  - name: "AAP-LSTM contributors"
+abstract: "Checkpoint-compatible peptide sequence inference tools. Checkpoints and the full manuscript workflow are not included."
+repository-code: "https://github.com/Aolutuolaman/AAP-LSTM"

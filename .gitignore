@@ -1,0 +1,37 @@
+# Environments, caches and editor files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+# External checkpoints, datasets and generated outputs
+*.h5
+*.hdf5
+*.keras
+*.ckpt*
+*.pt
+*.pth
+*.rds
+*.RDS
+*.RData
+*.zip
+outputs/
+data/
+datasets/
+generations/
+# Local configuration and manuscript material
+.env
+.env.*
+*.pem
+*.key
+*.docx
+*.pdf
+*.log

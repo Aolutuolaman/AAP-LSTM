@@ -1,0 +1,35 @@
+{
+  "description": "Reference fingerprints of local fine-tuned checkpoints; files are not distributed and no download endpoint is asserted.",
+  "checkpoints": {
+    "v1": {
+      "filename": "finetuned_gen1.hdf5",
+      "bytes": 3292160,
+      "sha256": "446f37b8d11c490d758df1e1e4ead5233c5910903ef358ed4cb8ba7cf1b13473"
+    },
+    "v2": {
+      "filename": "finetuned_gen2.hdf5",
+      "bytes": 3292160,
+      "sha256": "4f9f21b58cb23ca9d6dc6adc758693a4fe33ea6d36f91bd7b12bafd55d4d44f9"
+    },
+    "ang2": {
+      "filename": "finetuned_Ang2.hdf5",
+      "bytes": 3292160,
+      "sha256": "8385457def1a229b6b064b99eb9e3259d9bdd572b82d7f2893ab00dae1fec82e"
+    },
+    "bfgf": {
+      "filename": "finetuned_BFGF.hdf5",
+      "bytes": 3292160,
+      "sha256": "94a951625ebc6ff6267f450c4811e2d6d770d8003cd53c007836676eee254242"
+    },
+    "mmps": {
+      "filename": "finetuned_MMPs.hdf5",
+      "bytes": 3292160,
+      "sha256": "76eeb9968136c1e66a05ccfcced1e7d4e1b37ef2cb3a4d06c730560b916e73eb"
+    },
+    "vegfr2": {
+      "filename": "finetuned_VEGFR2.hdf5",
+      "bytes": 3292160,
+      "sha256": "3c4b3db51eb410917fc2ea4c7778aa4c8e68d45f8ab0c5ae47433dffa852ed15"
+    }
+  }
+}
